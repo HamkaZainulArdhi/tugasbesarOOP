@@ -170,7 +170,7 @@ public class GameFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_btnpahlawanActionPerformed
 
     private void btnbermainActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnbermainActionPerformed
-        InGame nextgame = new InGame();
+        TebakGambarGame nextgame = new TebakGambarGame();
         nextgame.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_btnbermainActionPerformed

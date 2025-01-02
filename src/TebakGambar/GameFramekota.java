@@ -170,7 +170,9 @@ public class GameFramekota extends javax.swing.JFrame {
     }//GEN-LAST:event_btnpahlawanActionPerformed
 
     private void btnbermainActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnbermainActionPerformed
-        // TODO add your handling code here:
+        TebakGambarGamekota nextkota = new TebakGambarGamekota ();
+        nextkota.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_btnbermainActionPerformed
 
     /**
